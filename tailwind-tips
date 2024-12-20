@@ -1,0 +1,295 @@
+                        ;Tailwind CSS Cheat Sheet
+;Layout (Макет)
+  ; Container (Контейнер):
+    container ;Центрирует содержимое и ограничивает его максимальную ширину.
+
+  ; Box Sizing (Размеры блока):
+    box-border ;Включает padding и border в ширину и высоту элемента.
+
+  ; Display (Отображение):
+    block, inline-block, inline, flex, inline-flex, grid, inline-grid, none ;Определяют тип отображения элемента.
+
+  ; Float (Плавающий элемент):
+    float-right, float-left, float-none ;Определяют, как элемент должен обтекать текст. 
+
+  ; Clear (Очистка):
+    clear-left, clear-right, clear-both, clear-none ;Определяют, с какой стороны элемент должен очищать плавающие элементы.
+
+  ;  Object Fit (Поведение объекта):
+    object-contain, object-cover, object-fill, object-none, object-scale-down ;Определяют, как содержимое должно масштабироваться внутри элемента.
+
+  ;  Object Position (Позиция объекта):
+    object-bottom, object-center, object-left, object-left-bottom, object-left-top, object-right, object-right-bottom, object-right-top, object-top ;Определяют позицию содержимого внутри элемента.
+
+  ;  Overflow (Переполнение):
+    overflow-auto, overflow-hidden, overflow-visible, overflow-scroll ;Определяют, как обрабатывать содержимое, выходящее за пределы элемента.
+
+  ;  Position (Позиция):
+    static, fixed, absolute, relative, sticky ;Определяют метод позиционирования элемента.
+
+  ;  Top / Right / Bottom / Left (Верх / Право / Низ / Лево):
+    top-0, right-0, bottom-0, left-0, top-auto, right-auto, bottom-auto, left-auto ;Определяют смещение элемента относительно его контейнера.
+
+  ;  Z-index (Z-индекс):
+    z-0, z-10, z-20, z-30, z-40, z-50, z-auto ;Определяют порядок наложения элементов.
+
+;Flexbox & Grid (Flexbox и Grid)
+  ;Flex
+    ; Flex Direction (Направление Flex):
+    flex-row, flex-row-reverse, flex-col, flex-col-reverse ;Определяют направление главной оси Flex-контейнера.
+
+    ; Flex Wrap (Перенос Flex):
+    flex-wrap, flex-wrap-reverse, flex-nowrap ;Определяют, как Flex-элементы должны переноситься.
+
+    ; Flex (Flex):
+    flex-1, flex-auto, flex-initial, flex-none ;Определяют, как Flex-элементы должны растягиваться.
+
+    ; Flex Grow (Растяжение Flex):
+    flex-grow-0, flex-grow ;Определяют, как Flex-элементы должны растягиваться относительно друг друга.
+
+    ; Flex Shrink (Сжатие Flex):
+    flex-shrink-0, flex-shrink ;Определяют, как Flex-элементы должны сжиматься относительно друг друга.
+
+    ; Order (Порядок):
+    order-1, order-first, order-last, order-none ;Определяют порядок Flex-элементов.
+
+
+  ;Grid
+    ; Grid Template Columns (Шаблон столбцов Grid):
+    grid-cols-1, grid-cols-none ;Определяют количество столбцов в Grid-контейнере.
+
+    ; Grid Column Start / End (Начало/Конец столбца Grid):
+    col-span-1, col-span-auto, col-span-full ;Определяют, сколько столбцов должен занимать элемент.
+
+    ; Grid Template Rows (Шаблон строк Grid):
+    grid-rows-1, grid-rows-none ;Определяют количество строк в Grid-контейнере.
+
+    ; Grid Row Start / End (Начало/Конец строки Grid):
+    row-span-1, row-span-full ;Определяют, сколько строк должен занимать элемент.
+
+    ; Grid Auto Flow (Автоматическое размещение Grid):
+    grid-flow-row, grid-flow-col, grid-flow-row-dense, grid-flow-col-dense ;Определяют, как элементы должны автоматически размещаться в Grid-контейнере.
+
+
+
+;Sizing (Размеры)
+  ; Width (Ширина):
+  w-0, w-1, w-auto, w-full, w-screen ;Определяют ширину элемента.
+
+  ; Min Width (Минимальная ширина):
+  min-w-0, min-w-full ;Определяют минимальную ширину элемента.
+
+  ; Max Width (Максимальная ширина):
+  max-w-xs, max-w-sm, max-w-md, max-w-lg, max-w-xl, max-w-2xl, max-w-3xl, max-w-4xl, max-w-5xl, max-w-6xl, max-w-7xl, max-w-full, max-w-screen-sm, max-w-screen-md, max-w-screen-lg, max-w-screen-xl, max-w-screen-2xl, max-w-none ;Определяют максимальную ширину элемента.
+
+  ; Height (Высота):
+  h-0, h-1, h-auto, h-full, h-screen ;Определяют высоту элемента.
+
+  ; Min Height (Минимальная высота):
+  min-h-0, min-h-full, min-h-screen ;Определяют минимальную высоту элемента.
+
+  ; Max Height (Максимальная высота):
+  max-h-xs, max-h-sm, max-h-md, max-h-lg, max-h-xl, max-h-2xl, max-h-3xl, max-h-4xl, max-h-5xl, max-h-6xl, max-h-7xl, max-h-full, max-h-screen-sm, max-h-screen-md, max-h-screen-lg, max-h-screen-xl, max-h-screen-2xl, max-h-none ;Определяют максимальную высоту элемента.
+
+
+;Typography (Типографика)
+  ; Font Family (Семейство шрифтов):
+  font-sans, font-serif, font-mono ;Определяют семейство шрифтов.
+
+  ; Font Size (Размер шрифта):
+  text-xs, text-sm, text-base, text-lg, text-xl, text-2xl, text-3xl, text-4xl, text-5xl, text-6xl, text-7xl, text-8xl, text-9xl ;Определяют размер шрифта.
+
+  ; Font Smoothing (Сглаживание шрифта):
+  antialiased, subpixel-antialiased ;Определяют метод сглаживания шрифта.
+
+  ; Font Style (Стиль шрифта):
+  italic, not-italic ;Определяют стиль шрифта.
+
+  ; Font Weight (Толщина шрифта):
+  font-thin, font-extralight, font-light, font-normal, font-medium, font-semibold, font-bold, font-extrabold, font-black ;Определяют толщину шрифта.
+
+  ; Letter Spacing (Межбуквенный интервал):
+  tracking-tighter, tracking-tight, tracking-normal, tracking-wide, tracking-wider, tracking-widest ;Определяют межбуквенный интервал.
+
+  ; Line Height (Высота строки):
+  leading-none, leading-tight, leading-snug, leading-normal, leading-relaxed, leading-loose ;Определяют высоту строки.
+
+  ; List Style Type (Тип маркера списка):
+  list-none, list-disc, list-decimal ;Определяют тип маркера списка.
+
+  ; List Style Position (Позиция маркера списка):
+  list-inside, list-outside ;Определяют позицию маркера списка.
+
+  ; Placeholder Color (Цвет заполнителя):
+  placeholder-transparent, placeholder-current, placeholder-black, placeholder-white, placeholder-[gray, red, yellow, green, blue, indigo, purple, pink]-[...]  ;Определяют цвет заполнителя.
+
+  ; Placeholder Opacity (Непрозрачность заполнителя):
+  placeholder-opacity-[]  ;Определяют непрозрачность заполнителя.
+
+  ; Text Align (Выравнивание текста):
+  text-left, text-center, text-right, text-justify ;Определяют выравнивание текста.
+
+  ; Text Color (Цвет текста):
+  text-transparent, text-current, text-black, text-white, text-[gray, red, yellow, green, blue, indigo, purple, pink]-[...]  ;Определяют цвет текста.
+
+  ; Text Opacity (Непрозрачность текста):
+  text-opacity-[]  ;Определяют непрозрачность текста.
+
+  ; Text Decoration (Декорация текста):
+  underline, line-through, no-underline ;Определяют декорацию текста.
+
+  ; Text Transform (Преобразование текста):
+  uppercase, lowercase, capitalize, normal-case ;Определяют преобразование текста.
+
+  ; Vertical Align (Вертикальное выравнивание):
+  align-baseline, align-top, align-middle, align-bottom, align-text-top, align-text-bottom ;Определяют вертикальное выравнивание.
+
+  ; Whitespace (Пробелы):
+  whitespace-normal, whitespace-nowrap, whitespace-pre, whitespace-pre-line, whitespace-pre-wrap ;Определяют обработку пробелов.
+
+  ; Word Break (Перенос слов):
+  break-normal, break-words, break-all ;Определяют перенос слов.
+
+
+;Backgrounds (Фоны)
+  ; Background Attachment (Прикрепление фона):
+  bg-fixed, bg-local, bg-scroll ;Определяют, как фоновое изображение должно прикрепляться к элементу.
+
+  ; Background Clip (Область фона):
+  bg-clip-border, bg-clip-padding, bg-clip-content, bg-clip-text ;Определяют, какая часть элемента должна быть закрашена фоном.
+
+  ; Background Color (Цвет фона):
+  bg-transparent, bg-current, bg-black, bg-white, bg-[gray, red, yellow, green, blue, indigo, purple, pink]-[...]  ;Определяют цвет фона.
+
+  ; Background Opacity (Непрозрачность фона):
+  bg-opacity-0, bg-opacity-10  ;Определяют непрозрачность фона.
+
+  ; Background Position (Позиция фона):
+  bg-bottom, bg-center, bg-left, bg-left-bottom, bg-left-top, bg-right, bg-right-bottom, bg-right-top, bg-top ;Определяют позицию фона.
+
+  ; Background Repeat (Повторение фона):
+  bg-repeat, bg-no-repeat, bg-repeat-x, bg-repeat-y, bg-repeat-round, bg-repeat-space ;Определяют, как фоновое изображение должно повторяться.
+
+  ; Background Size (Размер фона):
+  bg-auto, bg-cover, bg-contain ;Определяют, как фоновое изображение должно масштабироваться.
+
+  ; Gradient (Градиент):
+  bg-gradient-to-t, bg-gradient-to-tr, bg-gradient-to-r, bg-gradient-to-br, bg-gradient-to-b, bg-gradient-to-bl, bg-gradient-to-l, bg-gradient-to-tl ;Определяют направление градиента.
+
+
+;Borders (Границы)
+  ; Border Radius (Радиус границы):
+  rounded-none, rounded-sm, rounded-md, rounded-lg, rounded-xl, rounded-2xl, rounded-3xl, rounded-full, rounded-t, rounded-tr, rounded-r, rounded-br, rounded-b, rounded-bl, rounded-l, rounded-tl ;Определяют радиус границы.
+
+  ; Border Width (Ширина границы):
+  border-0, border-2, border-4, border-8: Определяют ширину границы.
+
+  ; Border Color (Цвет границы):
+  border-transparent, border-current, border-black, border-white, border-gray, border-gray-[gray, red, yellow, green, blue, indigo, purple, pink]-[...]  ;Определяют цвет границы.
+
+  ; Border Opacity (Непрозрачность границы):
+  border-opacity-0, border-opacity-10  ;Определяют непрозрачность границы.
+
+  ; Border Style (Стиль границы):
+  border-solid, border-dashed, border-dotted, border-double, border-none ;Определяют стиль границы.
+
+  ; Divide Width (Ширина разделителя):
+  divide-x-0, divide-x-2, divide-y-0, divide-y-2, divide-x-reverse, divide-y-reverse ;Определяют ширину разделителя.
+
+  ; Divide Color (Цвет разделителя):
+  divide-transparent, divide-current, divide-black, divide-white, divide-[gray, red, yellow, green, blue, indigo, purple, pink]-[...]  ;Определяют цвет разделителя.
+
+  ; Divide Opacity (Непрозрачность разделителя):
+  divide-opacity-[0, 10, ...]  ;Определяют непрозрачность разделителя.
+
+  ; Divide Style (Стиль разделителя):
+  divide-solid, divide-dashed, divide-dotted, divide-double, divide-none: Определяют стиль разделителя.
+
+  ; Ring Width (Ширина кольца):
+  ring-0, ring-1, ring-2, ring-4, ring-8 ;Определяют ширину кольца.
+
+  ; Ring Color (Цвет кольца):
+  ring-transparent, ring-current, ring-black, ring-white, ring-[gray, red, yellow, green, blue, indigo, purple, pink]-[...]  ;Определяют цвет кольца.
+
+  ; Ring Opacity (Непрозрачность кольца)
+  ring-opacity-[0, 10 , ...]  ;Определяют непрозрачность кольца.
+
+  ; Ring Offset Width (Смещение ширины кольца):
+  ring-offset-[0, 1, 2, 4, 8]  ;Определяют смещение ширины кольца.
+
+  ; Ring Offset Color (Цвет смещения кольца):
+  ring-offset-transparent, ring-offset-current, ring-offset-black, ring-offset-white, ring-offset-[gray, red, yellow, green, blue, indigo, purple, pink]-[...]  ;Определяют цвет смещения кольца.
+
+
+;Effects (Эффекты)
+  ; Box Shadow (Тень блока):
+  shadow-sm, shadow, shadow-md, shadow-lg, shadow-xl, shadow-2xl, shadow-inner, shadow-outline, shadow-none ;Определяют тень блока.
+
+  ; Opacity (Непрозрачность):
+  opacity-[...]  ;Определяют непрозрачность элемента.
+
+  ; Mix Blend Mode (Режим наложения):
+  mix-blend-normal, mix-blend-multiply, mix-blend-screen, mix-blend-overlay, mix-blend-darken, mix-blend-lighten, mix-blend-color-dodge, mix-blend-color-burn, mix-blend-hard-light, mix-blend-soft-light, mix-blend-difference, mix-blend-exclusion, mix-blend-hue, mix-blend-saturation, mix-blend-color, mix-blend-luminosity ;Определяют режим наложения элемента.
+
+
+;Tables (Таблицы)
+  ; Border Collapse (Схлопывание границ):
+  border-collapse, border-separate ;Определяют, как должны схлопываться границы ячеек таблицы.
+
+  ; Table Layout (Макет таблицы):
+    table-auto, table-fixed ;Определяют макет таблицы.
+
+;Transitions and Animation (Переходы и анимации)
+  ; Transition Property (Свойство перехода):
+    transition-none, transition-all, transition, transition-colors, transition-spacing, transition-opacity, transition-shadow, transition-transform ;Определяют, какие свойства должны переходить.
+
+  ; Transition Duration (Продолжительность перехода):
+    duration-[...]  ;Определяют продолжительность перехода.
+
+  ; Transition Timing Function (Функция времени перехода):
+    ease-linear, ease-in, ease-out, ease-in-out ;Определяют функцию времени перехода.
+
+  ; Transition Delay (Задержка перехода):
+    delay-[75, 100, 150, 200, 300, 500, 700, 1000]  ;Определяют задержку перехода.
+
+  ; Keyframes (Ключевые кадры):
+    keyframes-none, keyframes-spin, keyframes-ping, keyframes-pulse, keyframes-bounce ;Определяют ключевые кадры анимации.
+
+
+;Transforms (Преобразования)
+    ; Scale (Масштаб):
+    scale-[0, 50, 75, 90, 95, 100, 105, 110, 125, 150] ;Определяют масштаб элемента.
+
+    ; Rotate (Поворот):
+    rotate-[0, 45, 90, 180] ;Определяют поворот элемента.
+    
+    ; Translate (Перемещение):
+    translate-[x, y]-[0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64], translate-[x, y]-full ;Определяют перемещение элемента по осям X и Y.
+
+    ; Skew (Наклон):
+    skew-[x, y]-[0, 1, 2, 3, 6, 12] ;Определяют наклон элемента по осям X и Y.
+
+    ; Transform Origin (Центр преобразования):
+    origin-center, origin-top, origin-top-right, origin-right, origin-bottom-right, origin-bottom, origin-bottom-left, origin-left, origin-top-left ;Определяют центр преобразования элемента.
+
+
+;Interactivity (Интерактивность)
+
+  ; Appearance (Внешний вид):
+    appearance-none ;Убирает стандартный внешний вид элемента.
+
+  ; Cursor (Курсор):
+    cursor-auto, cursor-default, cursor-pointer, cursor-wait, cursor-text, cursor-move, cursor-not-allowed ;Определяют вид курсора при наведении на элемент.
+
+  ; Outline (Контур):
+    outline-none ;Убирает контур элемента.
+
+  ; Pointer Events (События указателя):
+    pointer-events-none, pointer-events-auto ;Определяют, должны ли элемент реагировать на события указателя.
+
+  ; Resize (Изменение размера):
+    resize-none, resize-y, resize-x, resize ;Определяют, можно ли изменять размер элемента.
+
+  ; User Select (Выделение пользователем):
+    select-none, select-text, select-all, select-auto ;Определяют, можно ли выделять текст в элементе.          
+style={{ backgroundImage: `url(public/von.jpg)` }}
