@@ -1,7 +1,10 @@
 export function Block_3() {
   return (
     <>
-      <div className="w-full bg-Beige p-10 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:gap-y-10">
+      <div
+        id="1"
+        className="w-full bg-Beige p-10 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:gap-y-10"
+      >
         <img
           src="public\test.jpg"
           alt="#"
