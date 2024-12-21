@@ -23,7 +23,7 @@ export function Block_1() {
           <div
             className="2xl:w-[500px] 2xl:h-[625px] xl:w-[450px] xl:h-[562px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[438px] sm:w-[300px] sm:h-[376px] w-[250px] h-[314px] flex flex-col justify-end p-2"
             style={{
-              backgroundImage: `url(./test.jpg)`,
+              backgroundImage: `url(test.jpg)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
