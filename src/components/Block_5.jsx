@@ -4,7 +4,7 @@ export function Block_5() {
       <div id="3" className=" flex flex-col items-center">
         <div>
           <img
-            src="public\test_2.jpg"
+            src="./test_2.jpg"
             alt="#"
             className="2xl:w-[600px] 2xl:h-[600px] xl:w-[550px] xl:h-[550px] lg:w-[500px] lg:h-[500px] md:w-[450px] md:h-[450px] sm:w-[400px] sm:h-[400px] w-[350px] h-[350px] "
             style={{
