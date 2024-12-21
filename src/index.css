@@ -65,31 +65,29 @@ video {
   border-style: none;
 }
 
-@layer base {
-  @font-face {
-    font-family: "Screpka";
-    src: url("/public/fonts/Screpka/Screpka.otf") format("opentype");
-  }
+@font-face {
+  font-family: "Screpka";
+  src: url("/fonts/Screpka/Screpka.otf") format("opentype");
+}
 
-  @font-face {
-    font-family: "Sexsmith";
-    src: url("/public/fonts/sexsmith/Sexsmith.otf") format("opentype");
-  }
+@font-face {
+  font-family: "Sexsmith";
+  src: url("/fonts/sexsmith/Sexsmith.otf") format("opentype");
+}
 
-  @font-face {
-    font-family: "Cruinn";
-    src: url("public/fonts/cruinn/CruinnLight.ttf") format("opentype");
-  }
+@font-face {
+  font-family: "Cruinn";
+  src: url("/fonts/cruinn/CruinnLight.ttf") format("opentype");
+}
 
-  @font-face {
-    font-family: "Antarctic";
-    src: url("public/fonts/Antarctic.otf") format("opentype");
-  }
+@font-face {
+  font-family: "Antarctic";
+  src: url("/fonts/Antarctic.otf") format("opentype");
+}
 
-  @font-face {
-    font-family: "Czizh";
-    src: url("public/fonts/czizh/CzizhFeather.ttf") format("opentype");
-  }
+@font-face {
+  font-family: "Czizh";
+  src: url("/fonts/czizh/CzizhFeather.ttf") format("opentype");
 }
 
 :root {
