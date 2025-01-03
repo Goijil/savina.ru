@@ -19,6 +19,14 @@ export default {
         Antarctic: ["Antarctic", "cursive"],
         Czizh: ["Czizh", "cursive"],
       },
+      screens: {
+        xs: "375px", // Новый брейкпоинт для маленьких экранов
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
     },
   },
   plugins: [],
