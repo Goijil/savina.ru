@@ -29,7 +29,7 @@ export function Footer() {
             <Svg id="whatsapp" />
           </a>
 
-          <a href="#" className="w-12">
+          <a href="mailto:savina.psy@gmail.com" className="w-12">
             <Svg id="envelope" />
           </a>
         </div>
