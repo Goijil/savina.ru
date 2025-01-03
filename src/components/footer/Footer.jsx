@@ -15,8 +15,7 @@ export function Footer() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
           <h1 className="text-center align-bottom text-Beige 2xl:text-xl xl:text-lg lg:text-base md:text-sm sm:text-xs text-xs  2xl:w-[320px] xl:w-[288px] lg:w-[256px] md:w-[224px] sm:w-[192px] w-[160px]">
-            Адрес: Кутузовский проспект, д. 36 стр. 3, 10й подъезд, 4й этаж,
-            кабинет 508; 55.74029515589882, 37.52681328465444
+            Адрес: Кутузовский проспект, д. 36, стр. 3
           </h1>
         </div>
 

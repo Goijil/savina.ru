@@ -20,7 +20,7 @@ export function WelcomePg() {
             <h1>Психоаналитической Ассоциации</h1>
             <h1>Психоаналитический терапевт</h1>
           </div>
-          <h1 className="2xl:text-3xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-base">
+          <h1 className="mt-5 2xl:text-3xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-base">
             Порой бывает сложно понять, что заставляет нас выбирать не то, чего,
             казалось бы, мы хотели. Смысл некоторых событий нашей жизни
             ускользает. Для того, чтобы открылись новые жизненные пути и

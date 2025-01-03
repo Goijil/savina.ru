@@ -21,7 +21,7 @@ export function Block_4() {
           <h1 className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-Sexsmith text-DarkGreen">
             О методе:
           </h1>
-          <h1 className="2xl:text-3xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-base">
+          <h1 className="mt-5 2xl:text-3xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-base">
             Психоаналитический подход основан на работе с бессознательным. Это
             свободным и спонтанным высказываниям во время сеанса. Любые мысли,
             идеи, чувства, воспоминания, сны имеют значение. Понадобится один

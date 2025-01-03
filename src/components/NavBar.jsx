@@ -20,15 +20,15 @@ export function NavBar() {
           href="#3"
           className="hover:text-Beige duration-500 text-center align-middle p-6"
         >
-          Виды услуг
+          Кому полезно
         </a>
         <a
           href="#4"
           className="hover:text-Beige duration-500 text-center align-middle p-6"
         >
-          Для кого
+          Виды помощи
         </a>
-        {/* кому полезно  */}
+
         <a
           href="#5"
           className="hover:text-Beige duration-500 text-center align-middle p-6"

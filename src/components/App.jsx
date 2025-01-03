@@ -14,8 +14,8 @@ export function App() {
         <WelcomePg />
         <Block_3 />
         <Block_4 />
-        <Block_5 />
         <Block_6 />
+        <Block_5 />
         <Footer />
       </div>
     </>

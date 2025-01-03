@@ -19,7 +19,7 @@ export function Block_3() {
           <h1 className="max-sm:text-center 2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl text-DarkGreen font-Sexsmith">
             Обо мне:
           </h1>
-          <h1 className="max-sm:text-center 2xl:text-3xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-base">
+          <h1 className="mt-5 max-sm:text-center 2xl:text-3xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-base">
             Опытный специалист в области глубинной психоаналитической
             психотерапии (французская школа) и психоаналитического
             консультирования (в том числе на базе психологической службы в
