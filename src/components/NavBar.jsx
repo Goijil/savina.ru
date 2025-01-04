@@ -20,7 +20,7 @@ export function NavBar() {
           href="#3"
           className="hover:text-Beige duration-500 text-center align-middle p-6"
         >
-          Кому полезно
+          Для кого
         </a>
         <a
           href="#4"
@@ -33,7 +33,7 @@ export function NavBar() {
           href="#5"
           className="hover:text-Beige duration-500 text-center align-middle p-6"
         >
-          Мои контакты
+          Контакты
         </a>
       </div>
       <div className="lg:hidden">

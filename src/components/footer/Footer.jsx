@@ -14,24 +14,13 @@ export function Footer() {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-          <h1 className="text-center align-bottom text-Beige 2xl:text-xl xl:text-lg lg:text-base md:text-sm sm:text-xs text-xs  2xl:w-[320px] xl:w-[288px] lg:w-[256px] md:w-[224px] sm:w-[192px] w-[160px]">
-            Адрес: Кутузовский проспект, д. 36, стр. 3
-          </h1>
+          <div className="text-center align-bottom text-Beige 2xl:text-2xl xl:text-xl lg:text-lg md:text-base sm:text-sm text-sm  2xl:w-[320px] xl:w-[288px] lg:w-[256px] md:w-[224px] sm:w-[192px] w-[160px]">
+            <h1>Адрес: Кутузовский проспект,</h1>
+            <h1> д. 36, стр. 3</h1>
+          </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-10 flex-wrap">
-          <a href="https://t.me/SAVINA_PSY" className="w-12 ">
-            <Svg id="telegram" />
-          </a>
-
-          <a href="https://wa.me/qr/7RKALZEMIBODA1" className="w-12">
-            <Svg id="whatsapp" />
-          </a>
-
-          <a href="mailto:savina.psy@gmail.com" className="w-12">
-            <Svg id="envelope" />
-          </a>
-        </div>
+        <Svg />
       </div>
     </>
   );

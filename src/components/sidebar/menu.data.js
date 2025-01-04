@@ -8,7 +8,7 @@ export const MENU = [
     link: "#2",
   },
   {
-    name: "Кому полезно",
+    name: "Для кого",
     link: "#3",
   },
   {
@@ -16,7 +16,7 @@ export const MENU = [
     link: "#4",
   },
   {
-    name: "Мои контакты",
+    name: "Контакты",
     link: "#5",
   },
 ];
