@@ -1,4 +1,4 @@
-export function Block_5() {
+export function TypesOfSupport() {
   return (
     <>
       <div
@@ -42,7 +42,7 @@ export function Block_5() {
 
         <div className="flex justify-center">
           <img
-            src="block5.jpg"
+            src="typesOfSupport.jpg"
             alt="#"
             className="object-cover max-lg:max-w-[350px] max-w-[450px] w-full h-full"
             style={{

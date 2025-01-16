@@ -1,4 +1,4 @@
-export function Block_3() {
+export function AboutMe() {
   return (
     <>
       <div
@@ -6,7 +6,7 @@ export function Block_3() {
         className="w-full bg-Beige p-10 gap-y-10 sm:flex sm:items-center max-md:flex max-md:flex-col max-md:items-center "
       >
         <img
-          src="block3.jpg"
+          src="aboutMe.jpg"
           alt="#"
           className=" sm:mr-10 object-cover md:min-w-[400px] max-md:max-w-[350px] max-w-[450px] w-full h-full" //sm:float-start
         />

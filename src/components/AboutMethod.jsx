@@ -1,4 +1,4 @@
-export function Block_4() {
+export function AboutMethod() {
   return (
     <>
       <div
@@ -7,7 +7,7 @@ export function Block_4() {
       >
         <div className="flex justify-center col-span-2 items-center">
           <img
-            src="block4.jpg"
+            src="aboutMethod.jpg"
             alt="#"
             className="object-cover max-h-[650px] max-w-[650px] w-full h-full"
           />

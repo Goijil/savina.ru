@@ -1,4 +1,4 @@
-export function Block_6() {
+export function WhoWillBenefit() {
   return (
     <>
       <div id="3" className="w-full bg-Beige p-10 ">
