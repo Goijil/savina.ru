@@ -1,28 +1,28 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
-export const useOutside = () => {
-  const [isCollapsed, setIsCollapsed] = useState(false); // Состояние
+export const useOutside = (isOpen, setIsOpen) => {
   const ref = useRef(null); // Ссылка на элемент
 
-  const toggleSidebar = () => setIsCollapsed((prev) => !prev);
-
-  // Обработчик кликов вне области
-  const handleClickOutside = (event) => {
-    if (ref.current && !ref.current.contains(event.target)) {
-      setIsCollapsed(false); // Закрываем меню
-    }
-  };
-
-  // Добавляем и удаляем обработчик событий
   useEffect(() => {
-    if (isCollapsed) {
-      document.addEventListener("mousedown", handleClickOutside);
-    }
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+    const handleClickOutside = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) {
+        setIsOpen(false); // Закрываем меню
+        console.log("handleClickOutside");
+      }
     };
-  }, [isCollapsed]);
 
-  // Возвращаем необходимые значения и методы
-  return { ref, isCollapsed, toggleSidebar };
+    if (isOpen) {
+      // Если сайдбар открыт, добавляем обработчик события
+      document.addEventListener("mousedown", handleClickOutside);
+      console.log("isOpen");
+    }
+
+    return () => {
+      // Удаляем обработчик при размонтировании или изменении isOpen
+      document.removeEventListener("mousedown", handleClickOutside);
+      console.log("removeEventListener");
+    };
+  }, [isOpen, setIsOpen]); // Следим за состоянием isOpen
+
+  return { ref };
 };
